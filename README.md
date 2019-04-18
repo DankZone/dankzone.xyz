@@ -20,8 +20,8 @@ If you can't do either of those then you can still help us out by being active o
 If you want to steal our work on our site then you can do just that by [remixing our site on Glitch](https://glitch.com/edit/#!/dankzonediscord)<br/>
 **Note that if you are going to use the content on our site then they must abide by these rules:**
 
-[Colorlib site license](https://colorlib.com/wp/licence/)
-[DankZone repo license](https://github.com/DankZone/dankzonediscord.glitch.me/blob/master/LICENSE)
+[Colorlib site license](https://colorlib.com/wp/licence/)<br/>
+[DankZone repo license](https://github.com/DankZone/dankzonediscord.glitch.me/blob/master/LICENSE)<br/>
 
 tl;dr:
 

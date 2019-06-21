@@ -2,4 +2,5 @@
 .DS_Store
 .ds_store
 thumbs.db
+.gitattributes
 .gitignore

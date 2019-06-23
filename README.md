@@ -1,7 +1,7 @@
 # DankZoneGlitch
 [![Build Status](https://travis-ci.org/DankZone/dankzone.glitch.me.svg?branch=master)](https://travis-ci.org/DankZone/dankzone.glitch.me)
 
-[dankzone.glitch.me](https://dankzone.glitch.me/) hosted on glitch.com
+[dankzonediscord.glitch.me](https://dankzonediscord.glitch.me/) hosted on glitch.com
 
 ## Minimum Requirements
 

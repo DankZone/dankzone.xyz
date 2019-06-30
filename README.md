@@ -1,7 +1,7 @@
 # DankZoneGlitch
 [![Build Status](https://travis-ci.org/DankZone/dankzone.glitch.me.svg?branch=master)](https://travis-ci.org/DankZone/dankzone.glitch.me)
 
-[dankzone.glitch.me](https://dankzone.glitch.me/) hosted on glitch.com
+[dankzone.ml](https://dankzone.ml/) hosted on [dankzone.glitch.me](https://dankzone.glitch.me/)
 
 ## Minimum Requirements
 
@@ -11,8 +11,8 @@ A computer with a web browser
 
 All help is appreciated.
 
-* [Open a pull request](https://github.com/DankZone/dankzone.glitch.me/pulls) on our GitHub repo
-* [Report an issue](https://github.com/DankZone/dankzone.glitch.me/issues) on our GitHub repo
+* [Open a pull request](https://github.com/LeoDoesThings/dankzonedev.glitch.me/pulls) on our GitHub development repo
+* [Report an issue](https://github.com/LeoDoesThings/dankzonedev.glitch.me/issues) on our GitHub development repo
 
 If you can't do either of those then you can still help us out by being active on our [Discord server](https://discordapp.com/invite/gwamp7n) and sharing info about us with random people you see.
 
@@ -23,7 +23,7 @@ If you want to steal our work on our site then you can do just that by [remixing
 **Note that if you are going to use the content on our site then they must abide by these rules:**
 
 [Colorlib site license](https://colorlib.com/wp/licence/)<br/>
-[DankZone repo license](https://github.com/DankZone/dankzone.glitch.me/blob/master/LICENSE)<br/>
+[DankZone repo license](https://github.com/DankZone/dankzonediscord.glitch.me/blob/master/LICENSE)<br/>
 
 tl;dr:
 

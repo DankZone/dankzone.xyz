@@ -1,4 +1,5 @@
 # DankZoneGlitch
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/16898fe9e0a24df3a40d053e8d061a65)](https://app.codacy.com/app/LeoDoesThings/dankzone.glitch.me?utm_source=github.com&utm_medium=referral&utm_content=DankZone/dankzone.glitch.me&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/DankZone/dankzone.glitch.me.svg?branch=master)](https://travis-ci.org/DankZone/dankzone.glitch.me)
 
 [dankzone.ml](https://dankzone.ml/) hosted on [dankzone.glitch.me](https://dankzone.glitch.me/)

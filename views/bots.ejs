@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/head.ejs') %>
+    <!-- Title -->
+    <title>Bots - DankZone</title>
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+      <%- include('partials/header.ejs') %>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>DankZone</h2>
+                        <h3>Bots</h3>
+                        <p>We've got some bots. Wanna know more about them?</p>
+                    </div>
+                    <div class="get-start-area">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Welcome thumb -->
+        <div class="welcome-thumb wow fadeInUp" data-wow-delay="0.5s">
+        </div>
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Special Area Start ***** -->
+      <%- include('partials/bots.ejs') %>
+     <!-- ***** Special Area End ***** -->
+
+    <!-- ***** Contact Us Area Start ***** -->
+      <%- include('partials/contact.ejs') %>
+    <!-- ***** Contact Us Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+      <%- include('partials/footer.ejs') %>
+    <!-- ***** Footer Area End ***** -->
+
+    <%- include('partials/footer-scripts.ejs') %>
+  
+</body>
+
+</html>

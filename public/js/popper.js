@@ -8,8 +8,8 @@
   "object" == typeof exports && "undefined" != typeof module
     ? (module.exports = t())
     : "function" == typeof define && define.amd
-      ? define(t)
-      : (e.Popper = t());
+    ? define(t)
+    : (e.Popper = t());
 })(this, function() {
   "use strict";
   function e(e) {
@@ -102,8 +102,8 @@
       o["offset" + e],
       ie()
         ? o["offset" + e] +
-          i["margin" + ("Height" === e ? "Top" : "Left")] +
-          i["margin" + ("Height" === e ? "Bottom" : "Right")]
+            i["margin" + ("Height" === e ? "Top" : "Left")] +
+            i["margin" + ("Height" === e ? "Bottom" : "Right")]
         : 0
     );
   }
@@ -203,8 +203,8 @@
         ? ((a = n(o(e))),
           "BODY" === a.nodeName && (a = window.document.documentElement))
         : "window" === r
-          ? (a = window.document.documentElement)
-          : (a = r);
+        ? (a = window.document.documentElement)
+        : (a = r);
       var f = u(a, s);
       if ("HTML" === a.nodeName && !y(s)) {
         var l = h(),
@@ -534,8 +534,8 @@
             return "" === e[e.length - 1] && -1 !== ["+", "-"].indexOf(t)
               ? ((e[e.length - 1] = t), (p = !0), e)
               : p
-                ? ((e[e.length - 1] += t), (p = !1), e)
-                : e.concat(t);
+              ? ((e[e.length - 1] += t), (p = !1), e)
+              : e.concat(t);
           }, [])
           .map(function(e) {
             return q(e, n, t, o);
@@ -782,10 +782,10 @@
               "left" === d
                 ? ((p.top += o[0]), (p.left -= o[1]))
                 : "right" === d
-                  ? ((p.top += o[0]), (p.left += o[1]))
-                  : "top" === d
-                    ? ((p.left += o[0]), (p.top -= o[1]))
-                    : "bottom" === d && ((p.left += o[0]), (p.top += o[1])),
+                ? ((p.top += o[0]), (p.left += o[1]))
+                : "top" === d
+                ? ((p.left += o[0]), (p.top -= o[1]))
+                : "bottom" === d && ((p.left += o[0]), (p.top += o[1])),
               (e.popper = p),
               e
             );

@@ -38,15 +38,13 @@
 })();
 
 /*!
-* jquery.counterup.js 1.0
-*
-* Copyright 2013, Benjamin Intal http://gambit.ph @bfintal
-* Released under the GPL v2 License
-*
-* Date: Nov 26, 2013
-*/ (function(
-  e
-) {
+ * jquery.counterup.js 1.0
+ *
+ * Copyright 2013, Benjamin Intal http://gambit.ph @bfintal
+ * Released under the GPL v2 License
+ *
+ * Date: Nov 26, 2013
+ */ (function(e) {
   "use strict";
   e.fn.counterUp = function(t) {
     var n = e.extend({ time: 400, delay: 10 }, t);
@@ -160,10 +158,10 @@
       return 0 == e
         ? t
         : e == u
-          ? t + r
-          : (e /= u / 2) < 1
-            ? (r / 2) * Math.pow(2, 10 * (e - 1)) + t
-            : (r / 2) * (-Math.pow(2, -10 * --e) + 2) + t;
+        ? t + r
+        : (e /= u / 2) < 1
+        ? (r / 2) * Math.pow(2, 10 * (e - 1)) + t
+        : (r / 2) * (-Math.pow(2, -10 * --e) + 2) + t;
     },
     easeInCirc: function(n, e, t, r, u) {
       return -r * (Math.sqrt(1 - (e /= u) * e) - 1) + t;
@@ -259,10 +257,10 @@
       return (e /= u) < 1 / 2.75
         ? r * (7.5625 * e * e) + t
         : 2 / 2.75 > e
-          ? r * (7.5625 * (e -= 1.5 / 2.75) * e + 0.75) + t
-          : 2.5 / 2.75 > e
-            ? r * (7.5625 * (e -= 2.25 / 2.75) * e + 0.9375) + t
-            : r * (7.5625 * (e -= 2.625 / 2.75) * e + 0.984375) + t;
+        ? r * (7.5625 * (e -= 1.5 / 2.75) * e + 0.75) + t
+        : 2.5 / 2.75 > e
+        ? r * (7.5625 * (e -= 2.25 / 2.75) * e + 0.9375) + t
+        : r * (7.5625 * (e -= 2.625 / 2.75) * e + 0.984375) + t;
     },
     easeInOutBounce: function(n, e, t, r, u) {
       return u / 2 > e
@@ -829,10 +827,10 @@
                 "left" === c && b > h - e && b < h + e
                   ? (d = a)
                   : "right" === c && b > h - f - e && b < h - f + e
-                    ? (d = a + 1)
-                    : this.op(b, "<", h) &&
-                      this.op(b, ">", g[a + 1] || h - f) &&
-                      (d = "left" === c ? a + 1 : a),
+                  ? (d = a + 1)
+                  : this.op(b, "<", h) &&
+                    this.op(b, ">", g[a + 1] || h - f) &&
+                    (d = "left" === c ? a + 1 : a),
                 d === -1
               );
             }, this)
@@ -854,13 +852,13 @@
               transition: this.speed() / 1e3 + "s"
             })
           : c
-            ? this.$stage.animate(
-                { left: b + "px" },
-                this.speed(),
-                this.settings.fallbackEasing,
-                a.proxy(this.onTransitionEnd, this)
-              )
-            : this.$stage.css({ left: b + "px" });
+          ? this.$stage.animate(
+              { left: b + "px" },
+              this.speed(),
+              this.settings.fallbackEasing,
+              a.proxy(this.onTransitionEnd, this)
+            )
+          : this.$stage.css({ left: b + "px" });
     }),
     (e.prototype.is = function(a) {
       return this._states.current[a] && this._states.current[a] > 0;
@@ -1006,8 +1004,8 @@
             d - e > 0 &&
             ((c = d - e), (a = d), this.reset(c)))
         : this.settings.rewind
-          ? ((i += 1), (a = ((a % i) + i) % i))
-          : (a = Math.max(h, Math.min(i, a))),
+        ? ((i += 1), (a = ((a % i) + i) % i))
+        : (a = Math.max(h, Math.min(i, a))),
         this.speed(this.duration(c, a, b)),
         this.current(a),
         this.$element.is(":visible") && this.update();
@@ -1033,10 +1031,10 @@
         this.options.responsiveBaseElement !== b
           ? (d = a(this.options.responsiveBaseElement).width())
           : b.innerWidth
-            ? (d = b.innerWidth)
-            : c.documentElement && c.documentElement.clientWidth
-              ? (d = c.documentElement.clientWidth)
-              : console.warn("Can not detect viewport width."),
+          ? (d = b.innerWidth)
+          : c.documentElement && c.documentElement.clientWidth
+          ? (d = c.documentElement.clientWidth)
+          : console.warn("Can not detect viewport width."),
         d
       );
     }),
@@ -1291,8 +1289,8 @@
           a.touches && a.touches.length
             ? a.touches[0]
             : a.changedTouches && a.changedTouches.length
-              ? a.changedTouches[0]
-              : a),
+            ? a.changedTouches[0]
+            : a),
         a.pageX
           ? ((c.x = a.pageX), (c.y = a.pageY))
           : ((c.x = a.clientX), (c.y = a.clientY)),
@@ -1583,8 +1581,8 @@
             return a.attr("data-vimeo-id")
               ? "vimeo"
               : a.attr("data-vzaar-id")
-                ? "vzaar"
-                : "youtube";
+              ? "vzaar"
+              : "youtube";
           })(),
           d =
             a.attr("data-vimeo-id") ||
@@ -1649,25 +1647,25 @@
         "youtube" === c.type
           ? ((f = "//img.youtube.com/vi/" + c.id + "/hqdefault.jpg"), l(f))
           : "vimeo" === c.type
-            ? a.ajax({
-                type: "GET",
-                url: "//vimeo.com/api/v2/video/" + c.id + ".json",
-                jsonp: "callback",
-                dataType: "jsonp",
-                success: function(a) {
-                  (f = a[0].thumbnail_large), l(f);
-                }
-              })
-            : "vzaar" === c.type &&
-              a.ajax({
-                type: "GET",
-                url: "//vzaar.com/api/videos/" + c.id + ".json",
-                jsonp: "callback",
-                dataType: "jsonp",
-                success: function(a) {
-                  (f = a.framegrab_url), l(f);
-                }
-              });
+          ? a.ajax({
+              type: "GET",
+              url: "//vimeo.com/api/v2/video/" + c.id + ".json",
+              jsonp: "callback",
+              dataType: "jsonp",
+              success: function(a) {
+                (f = a[0].thumbnail_large), l(f);
+              }
+            })
+          : "vzaar" === c.type &&
+            a.ajax({
+              type: "GET",
+              url: "//vzaar.com/api/videos/" + c.id + ".json",
+              jsonp: "callback",
+              dataType: "jsonp",
+              success: function(a) {
+                (f = a.framegrab_url), l(f);
+              }
+            });
       }),
       (e.prototype.stop = function() {
         this._core.trigger("stop", null, "video"),
@@ -1701,23 +1699,23 @@
                 f.id +
                 '" frameborder="0" allowfullscreen></iframe>')
             : "vimeo" === f.type
-              ? (c =
-                  '<iframe src="//player.vimeo.com/video/' +
-                  f.id +
-                  '?autoplay=1" width="' +
-                  g +
-                  '" height="' +
-                  h +
-                  '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>')
-              : "vzaar" === f.type &&
-                (c =
-                  '<iframe frameborder="0"height="' +
-                  h +
-                  '"width="' +
-                  g +
-                  '" allowfullscreen mozallowfullscreen webkitAllowFullScreen src="//view.vzaar.com/' +
-                  f.id +
-                  '/player?autoplay=true"></iframe>'),
+            ? (c =
+                '<iframe src="//player.vimeo.com/video/' +
+                f.id +
+                '?autoplay=1" width="' +
+                g +
+                '" height="' +
+                h +
+                '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>')
+            : "vzaar" === f.type &&
+              (c =
+                '<iframe frameborder="0"height="' +
+                h +
+                '"width="' +
+                g +
+                '" allowfullscreen mozallowfullscreen webkitAllowFullScreen src="//view.vzaar.com/' +
+                f.id +
+                '/player?autoplay=true"></iframe>'),
           a('<div class="owl-video-frame">' + c + "</div>").insertAfter(
             e.find(".owl-video")
           ),
@@ -2110,14 +2108,14 @@
             c.dotsData && 0 !== b
               ? this._controls.$absolute.html(this._templates.join(""))
               : b > 0
-                ? this._controls.$absolute.append(
-                    new Array(b + 1).join(this._templates[0])
-                  )
-                : b < 0 &&
-                  this._controls.$absolute
-                    .children()
-                    .slice(b)
-                    .remove(),
+              ? this._controls.$absolute.append(
+                  new Array(b + 1).join(this._templates[0])
+                )
+              : b < 0 &&
+                this._controls.$absolute
+                  .children()
+                  .slice(b)
+                  .remove(),
             this._controls.$absolute.find(".active").removeClass("active"),
             this._controls.$absolute
               .children()
@@ -2531,8 +2529,8 @@
 })(jQuery, window, document);
 
 /*! Magnific Popup - v1.1.0 - 2016-02-20
-* http://dimsemenov.com/plugins/magnific-popup/
-* Copyright (c) 2016 Dmitry Semenov; */
+ * http://dimsemenov.com/plugins/magnific-popup/
+ * Copyright (c) 2016 Dmitry Semenov; */
 !(function(a) {
   "function" == typeof define && define.amd
     ? define(["jquery"], a)
@@ -2942,14 +2940,14 @@
               "replaceWith" === g
                 ? f[0] !== d[0] && f.replaceWith(d)
                 : "img" === g
-                  ? f.is("img")
-                    ? f.attr("src", d)
-                    : f.replaceWith(
-                        a("<img>")
-                          .attr("src", d)
-                          .attr("class", f.attr("class"))
-                      )
-                  : f.attr(e[1], d);
+                ? f.is("img")
+                  ? f.attr("src", d)
+                  : f.replaceWith(
+                      a("<img>")
+                        .attr("src", d)
+                        .attr("class", f.attr("class"))
+                    )
+                : f.attr(e[1], d);
             }
           } else b.find(p + "-" + c).html(d);
         });
@@ -3198,8 +3196,8 @@
                     void (3 === c
                       ? e(10)
                       : 40 === c
-                        ? e(50)
-                        : 100 === c && e(500)));
+                      ? e(50)
+                      : 100 === c && e(500)));
               }, f));
           };
         e(1);
@@ -4189,7 +4187,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 }.call(this));
 
 /*! WOW - v1.1.3 - 2016-05-06
-* Copyright (c) 2016 Matthieu Aussaguel;*/ (function() {
+ * Copyright (c) 2016 Matthieu Aussaguel;*/ (function() {
   var a,
     b,
     c,
@@ -4230,8 +4228,8 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
             ? ((e = document.createEvent("CustomEvent")),
               e.initCustomEvent(a, b, c, d))
             : null != document.createEventObject
-              ? ((e = document.createEventObject()), (e.eventType = a))
-              : (e.eventName = a),
+            ? ((e = document.createEventObject()), (e.eventType = a))
+            : (e.eventName = a),
           e
         );
       }),
@@ -4239,24 +4237,24 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
         return null != a.dispatchEvent
           ? a.dispatchEvent(b)
           : b in (null != a)
-            ? a[b]()
-            : "on" + b in (null != a)
-              ? a["on" + b]()
-              : void 0;
+          ? a[b]()
+          : "on" + b in (null != a)
+          ? a["on" + b]()
+          : void 0;
       }),
       (a.prototype.addEvent = function(a, b, c) {
         return null != a.addEventListener
           ? a.addEventListener(b, c, !1)
           : null != a.attachEvent
-            ? a.attachEvent("on" + b, c)
-            : (a[b] = c);
+          ? a.attachEvent("on" + b, c)
+          : (a[b] = c);
       }),
       (a.prototype.removeEvent = function(a, b, c) {
         return null != a.removeEventListener
           ? a.removeEventListener(b, c, !1)
           : null != a.detachEvent
-            ? a.detachEvent("on" + b, c)
-            : delete a[b];
+          ? a.detachEvent("on" + b, c)
+          : delete a[b];
       }),
       (a.prototype.innerHeight = function() {
         return "innerHeight" in window

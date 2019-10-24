@@ -19,31 +19,31 @@ app.set('view engine', 'ejs');
 // http://expressjs.com/en/starter/basic-routing.html
 // https://github.com/mde/ejs/wiki/Using-EJS-with-Express
 app.get('/', function(request, response) {
-  response.render('index', {foo: 'homepage'});
+  response.render('index');
 });
 
 app.get('/home', function(request, response) {
-  response.render('index', {foo: 'homepage'});
+  response.render('index');
 });
 
 app.get('/about', function(request, response) {
-  response.render('about', {foo: 'about us'});
+  response.render('about');
 });
 
 app.get('/donate', function(request, response) {
-  response.render('donate', {foo: 'donation page'});
+  response.render('donate');
 });
 
 app.get('/mcserver', function(request, response) {
-  response.render('mcserver', {foo: 'minecraft server'});
+  response.render('mcserver');
 });
 
 app.get('/bots', function(request, response) {
-  response.render('bots', {foo: 'discord bots'});
+  response.render('bots');
 });
 
 app.get('/thank-you', function(request, response) {
-  response.render('thankyou', {foo: 'donation thanks'});
+  response.render('thankyou');
 });
 
 

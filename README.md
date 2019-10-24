@@ -1,11 +1,11 @@
 <p>
-  <a href="https://app.codacy.com/project/LeoDoesThings/dankzone.glitch.me/dashboard?bid=13535743"><img src="https://img.shields.io/codacy/grade/c9a7e2488d544a09b4d5dc415d9af208?style=for-the-badge" alt="Code Quality"></a>
+  <a href="https://app.codacy.com/project/LeoDoesThings/dankzone.xyz/dashboard?bid=13535743"><img src="https://img.shields.io/codacy/grade/c9a7e2488d544a09b4d5dc415d9af208?style=for-the-badge" alt="Code Quality"></a>
   <a href="https://travis-ci.org/DankZone/dankzone.xyz"><img src="https://img.shields.io/travis/DankZone/dankzone.xyz?style=for-the-badge" alt="Travis-CI Build"></a>
   <a href="https://github.com/DankZone/dankzone.xyz/blob/glitch/LICENSE.md"><img src="https://img.shields.io/github/license/DankZone/dankzone.xyz?style=for-the-badge" alt="License"></a>
   <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
 </p>
 
-<img align="right" alt="logo" width="100" src="https://cdn.dankzonemc.ml/archive/dankzone/icons/DzSQAURE.png">
+<img align="right" alt="logo" width="100" src="https://cdn.dankzone.xyz/archive/dankzone/icons/DzSQAURE.png">
 
 # DankZoneGlitch
 

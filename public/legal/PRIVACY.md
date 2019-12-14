@@ -9,7 +9,7 @@ This privacy policy (“Policy”) describes the data practices of DankZone, Inc
 
 tl;dr - We collect data to provide you services and to improve our services. We may share some of your information to the third parties listed below, but we will never sell your personal information.
 
-**This Privacy Policy was last updated on November 11 2019.**
+**This Privacy Policy was last updated on November 19 2019.**
 
 ## Information we collect
 
@@ -34,7 +34,8 @@ Gmail and Firebase (Google) Privacy Policy: https://policies.google.com/privacy
 Minecraft (Microsoft) Privacy Statement: https://privacy.microsoft.com/privacystatement  
 Freshdesk (Freshworks) Privacy Policy: https://www.freshworks.com/privacy/  
 GitHub Privacy Statement: https://help.github.com/articles/github-privacy-statement  
-PayPal Privacy Policy: https://www.paypal.com/privacy
+PayPal Privacy Policy: https://www.paypal.com/privacy  
+Stripe Privacy Policy: https://stripe.com/privacy (we abide by the New Zealand privacy policy: https://stripe.com/nz/privacy)
 
 ## Choice
 

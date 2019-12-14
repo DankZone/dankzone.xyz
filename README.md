@@ -1,3 +1,6 @@
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+
 <p>
   <a href="https://app.codacy.com/project/LeoDoesThings/dankzone.xyz/dashboard?bid=13535743"><img src="https://img.shields.io/codacy/grade/c9a7e2488d544a09b4d5dc415d9af208?style=for-the-badge" alt="Code Quality"></a>
   <a href="https://travis-ci.org/DankZone/dankzone.xyz"><img src="https://img.shields.io/travis/DankZone/dankzone.xyz?style=for-the-badge" alt="Travis-CI Build"></a>
@@ -5,11 +8,14 @@
   <a href="https://discord.gg/gwamp7n"><img src="https://img.shields.io/discord/344369585950294016?logo=Discord&style=for-the-badge" alt="Discord server"></a>
 </p>
 
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com)
+
 <img align="right" alt="logo" width="100" src="https://cdn.dankzone.xyz/archive/dankzone/icons/DzSQAURE.png">
 
-# DankZoneGlitch
+# DankZone Website
 
-[dankzone.xyz](https://dankzone.xyz/) hosted on [dankzone.glitch.me](https://dankzone.glitch.me/)
+The full source code for <https://dankzone.xyz>
 
 ## Minimum Requirements
 
@@ -26,7 +32,7 @@ If you can't do either of those then you can still help us out by being active o
 
 ## Usage
 
-If you want to steal our work on our site then you can do just that by [remixing our site on Glitch](https://glitch.com/edit/#!/dankzonediscord)
+If you want to steal our work on our site then you can do just that by [remixing our site on Glitch](https://glitch.com/edit/#!/remix/dankzone)
 
 **Note that if you are going to use the content on our site then they must abide by these rules:**
 

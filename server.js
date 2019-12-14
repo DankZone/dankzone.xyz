@@ -60,7 +60,6 @@ app.get("/cookie-policy", function(req, res) {
   res.send(marked(file.toString()));
 });
 
-
 // Redirect unused URLs to the 404 page
 app.get("*", function(request, response) {
   response.render("404");

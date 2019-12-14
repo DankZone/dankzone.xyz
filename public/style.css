@@ -26,12 +26,12 @@
 -------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
-@import 'css/bootstrap.min.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css');
+/* @import 'css/bootstrap.min.css'; */
 @import 'css/animate.css';
 @import 'css/magnific-popup.css';
 @import 'css/owl.carousel.min.css';
 @import 'css/slick.css';
-@import 'css/font-awesome.min.css';
 @import 'css/themify-icons.css';
 @import 'css/ionicons.min.css';
 
@@ -338,7 +338,7 @@ p {
     padding: 0 4%;
 }
 
-.menu_area .navbar-brand {
+.menu_area .navbar-brand-dz {
     font-size: 72px;
     font-weight: 700;
     color: #fff;
@@ -347,9 +347,18 @@ p {
     padding: 0;
 }
 
+.menu_area .navbar-brand-dz-black {
+    font-size: 72px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+}
 
-.menu_area .navbar-brand:hover,
-.menu_area .navbar-brand:focus {
+
+.menu_area .navbar-brand-dz:hover,
+.menu_area .navbar-brand-dz:focus {
     color: #fff;
 }
 
@@ -359,7 +368,7 @@ p {
     z-index: 2;
 }
 
-.menu_area #nav .nav-link {
+.menu_area #nav .nav-link-dz {
     color: #fff;
     display: block;
     font-size: 16px;
@@ -371,6 +380,16 @@ p {
     padding: 35px 15px;
 }
 
+@media (max-width: 991.98px)
+{
+    .menu_area #nav .nav-link-dz
+    {
+        padding: .625rem 0;
+        padding-left: 2em 0 !important;
+        color: #000 !important;
+    }
+}
+
 
 .menu_area nav ul li > a:hover {
     color: #00c7ff;
@@ -380,7 +399,7 @@ p {
     text-align: right;
 }
 
-.beamerbutton > p {
+.beamerbutton > a {
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -392,7 +411,7 @@ p {
     border-radius: 24px 24px 24px 0px;
 }
 
-.beamerbutton > p:hover {
+.beamerbutton > a:hover {
     background: #00afe0;
     color: #fff;
     border-color: transparent;
@@ -413,11 +432,11 @@ p {
     z-index: 99;
 }
 
-.header_area.sticky .menu_area .navbar-brand {
+.header_area.sticky .menu_area .navbar-brand-dz {
     font-size: 50px;
 }
 
-.header_area.sticky .menu_area #nav .nav-link {
+.header_area.sticky .menu_area #nav .nav-link-dz {
     padding: 23px 15px;
 }
 .header_area.sticky .navbar {
@@ -1326,8 +1345,6 @@ italic {
 .copyright-text > p {
     margin-bottom: 0;
 }
-
-
 
 
 /*Cookie Consent Begin*/

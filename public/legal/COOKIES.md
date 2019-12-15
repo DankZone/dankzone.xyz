@@ -28,7 +28,7 @@ when they close their browser.
 We use both session cookies and persistent cookies on DankZone sites.
 
 **We do not use Google Analytics. We respect your privacy and do not collect
-your personal information without asking you first.**  
+your personal information without asking you first.**
 However we use third-parties that may put cookies on your site session. Here is
 a list of third-parties we use on our site that are most likely to put cookies
 on your session.
@@ -68,6 +68,6 @@ unable to use certain features.
 
 ## Contact us
 
-We're more than happy to talk to you through email at support@dankzone.xyz  
+We're more than happy to talk to you through email at support@dankzone.xyz
 If you want more information about how we use your data, see
 https://dankzone.xyz/privacy

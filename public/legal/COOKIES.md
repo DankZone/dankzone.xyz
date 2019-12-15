@@ -21,8 +21,8 @@ We use both session cookies and persistent cookies on DankZone sites.
 **We do not use Google Analytics. We respect your privacy and do not collect your personal information without asking you first.**  
 However we use third-parties that may put cookies on your site session. Here is a list of third-parties we use on our site that are most likely to put cookies on your session.
 
-- Freshchat (https://www.freshworks.com/privacy/)
-- fly.io (https://fly.io/legal/privacy-policy/)
+- Freshchat (<https://www.freshworks.com/privacy/>)
+- fly.io (<https://fly.io/legal/privacy-policy/>)
 
 ## How we use cookies
 

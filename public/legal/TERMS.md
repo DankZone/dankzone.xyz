@@ -10,10 +10,10 @@ Effective as of December 4 2019
 
 ## General Information Regarding These Terms of Use
 
-Master terms: Welcome, and thank you for your interest in DankZone (“DankZone,” “Dz,” “DZ,” “we,” “our,” or “us”). Unless otherwise noted on a particular site or service, these master terms of use (“Master Terms”) apply to your use of all of the services that DankZone operates. These include https://dankzone.xyz/, and the DankZone Discord server (https://discord.gg/gwamp7n).  
+Master terms: Welcome, and thank you for your interest in DankZone (“DankZone,” “Dz,” “DZ,” “we,” “our,” or “us”). Unless otherwise noted on a particular site or service, these master terms of use (“Master Terms”) apply to your use of all of the services that DankZone operates. These include <https://dankzone.xyz/>, and the DankZone Discord server (<https://discord.gg/gwamp7n>).  
 The Master Terms also apply to all products, information, and services provided through the websites.
 
-**DankZone does not operate the service(s) at https://glitch.com/ or https://freshdesk.com/.**
+**DankZone does not operate the service(s) at <https://glitch.com/> or <https://freshdesk.com/>.**
 
 Additional terms: In addition to the Master Terms, your use of any Services may also be subject to specific terms applicable to a particular Service (“Additional Terms”). If there is any conflict between the Additional Terms and the Master Terms, then the Additional Terms apply in relation to the relevant Service.  
 Collectively, the Terms: The Master Terms, together with any Additional Terms, form a binding legal agreement between you and DankZone in relation to your use of the Services. Collectively, this legal agreement is referred to below as the “Terms.”  

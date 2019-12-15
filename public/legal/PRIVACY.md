@@ -27,15 +27,15 @@ PII is primarily used for business purposes, such as for sending you occasional 
 
 While we strive to work with reputable companies with good privacy practices, this Policy does not apply to services offered by other companies or individuals, including products or sites that may be displayed to you on the Services. We also do not control the privacy policies and your privacy settings on third-party sites, including social networks. We use third parties to offer you better Services, such as obtaining analytics about the users of our site and to help tailor advertising to your preferences. For further information, please see some of the relevant privacy policies below for our third parties and additionally consult industry codes of conduct.
 
-Discord Privacy Policy: https://discordapp.com/privacy  
-Glitch Privacy Policy: https://glitch.com/legal/#privacy  
-Fly.io Privacy Policy: https://fly.io/legal/privacy-policy/  
-Gmail and Firebase (Google) Privacy Policy: https://policies.google.com/privacy  
-Minecraft (Microsoft) Privacy Statement: https://privacy.microsoft.com/privacystatement  
-Freshdesk (Freshworks) Privacy Policy: https://www.freshworks.com/privacy/  
-GitHub Privacy Statement: https://help.github.com/articles/github-privacy-statement  
-PayPal Privacy Policy: https://www.paypal.com/privacy  
-Stripe Privacy Policy: https://stripe.com/privacy (we abide by the New Zealand privacy policy: https://stripe.com/nz/privacy)
+Discord Privacy Policy: <https://discordapp.com/privacy>  
+Glitch Privacy Policy: <https://glitch.com/legal/#privacy>  
+Fly.io Privacy Policy: <https://fly.io/legal/privacy-policy/>  
+Gmail and Firebase (Google) Privacy Policy: <https://policies.google.com/privacy>  
+Minecraft (Microsoft) Privacy Statement: <https://privacy.microsoft.com/privacystatement>  
+Freshdesk (Freshworks) Privacy Policy: <https://www.freshworks.com/privacy/>  
+GitHub Privacy Statement: <https://help.github.com/articles/github-privacy-statement>  
+PayPal Privacy Policy: <https://www.paypal.com/privacy>  
+Stripe Privacy Policy: <https://stripe.com/privacy> (we abide by the New Zealand privacy policy: <https://stripe.com/nz/privacy>)
 
 ## Choice
 

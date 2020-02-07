@@ -12,23 +12,37 @@ app.set("view engine", "ejs");
 
 // http://expressjs.com/en/starter/basic-routing.html
 // https://github.com/mde/ejs/wiki/Using-EJS-with-Express
-app.get("/", function(request, response) { response.render("index"); });
+app.get("/", function(request, response) {
+  response.render("index");
+});
 
-app.get("/home", function(request, response) { response.render("index"); });
+app.get("/home", function(request, response) {
+  response.render("index");
+});
 
-app.get("/about", function(request, response) { response.render("about"); });
+app.get("/about", function(request, response) {
+  response.render("about");
+});
 
-app.get("/team", function(request, response) { response.render("team"); });
+app.get("/team", function(request, response) {
+  response.render("team");
+});
 
-app.get("/donate", function(request, response) { response.render("donate"); });
+app.get("/donate", function(request, response) {
+  response.render("donate");
+});
 
-app.get("/mcserver",
-        function(request, response) { response.render("mcserver"); });
+app.get("/mcserver", function(request, response) {
+  response.render("mcserver");
+});
 
-app.get("/bots", function(request, response) { response.render("bots"); });
+app.get("/bots", function(request, response) {
+  response.render("bots");
+});
 
-app.get("/thank-you",
-        function(request, response) { response.render("thankyou"); });
+app.get("/thank-you", function(request, response) {
+  response.render("thankyou");
+});
 
 // Load terms of service and privacy policy
 app.get("/terms", function(req, res) {
@@ -51,7 +65,9 @@ app.get("/cookie-policy", function(req, res) {
 });
 
 // Redirect unused URLs to the 404 page
-app.get("*", function(request, response) { response.render("404"); });
+app.get("*", function(request, response) {
+  response.render("404");
+});
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {

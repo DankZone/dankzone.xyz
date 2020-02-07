@@ -3,7 +3,6 @@ FROM node:current-alpine
 WORKDIR /src
 
 COPY package.json .
-COPY package-lock.json .
 
 RUN npm install --production
 

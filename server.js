@@ -24,6 +24,10 @@ app.get("/about", function(request, response) {
   response.render("about");
 });
 
+app.get("/team", function(request, response) {
+  response.render("team");
+});
+
 app.get("/donate", function(request, response) {
   response.render("donate");
 });

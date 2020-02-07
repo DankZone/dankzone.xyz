@@ -11,4 +11,4 @@ COPY . .
 
 ENV PORT=8080
 
-CMD [ "node","hellonode.js" ]
+CMD [ "node","server.js" ]

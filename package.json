@@ -1,7 +1,6 @@
 {
   "name": "DankZone",
-  "version": "0.1.5",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "The official website for DankZone",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

@@ -59,11 +59,24 @@ app.get("/terms", function(req, res) {
   res.send(marked(file.toString()));
 });
 
+app.get("/terms-2019", function(req, res) {
+  var path = __dirname + "/public/legal/TERMS.md";
+  var file = fs.readFileSync(path, "utf8");
+  res.send(marked(file.toString()));
+});
+
 app.get("/privacy", function(req, res) {
   var path = __dirname + "/public/legal/PRIVACY-v2.md";
   var file = fs.readFileSync(path, "utf8");
   res.send(marked(file.toString()));
 });
+
+app.get("/privacy-2019", function(req, res) {
+  var path = __dirname + "/public/legal/PRIVACY.md";
+  var file = fs.readFileSync(path, "utf8");
+  res.send(marked(file.toString()));
+});
+
 
 // Redirect unused URLs to the 404 page
 app.get("*", function(request, response) {

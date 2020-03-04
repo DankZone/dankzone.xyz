@@ -2,7 +2,7 @@
 <title>Privacy Policy - DankZone</title>
 <link rel="icon" href="img/core-img/favicon.ico">
 
-# DankZone Privacy Policy
+# DankZone Privacy Policy (2019)
 
 This privacy policy will explain what information we collect online, why we collect it, and the choices we offer to you.  
 This privacy policy (“Policy”) describes the data practices of DankZone, Inc. and its subsidiaries (collectively “we”, or the “Company”), covering its services under its control, including this website, any products, mobile applications, console or PC applications (collectively "Services"). By using the Services, you are consenting to this Policy and the processing of your data in the manner provided in this Policy. If you do not agree with these terms, please do not use the Services.

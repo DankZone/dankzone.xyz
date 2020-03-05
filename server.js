@@ -12,45 +12,32 @@ app.set("view engine", "ejs");
 
 // http://expressjs.com/en/starter/basic-routing.html
 // https://github.com/mde/ejs/wiki/Using-EJS-with-Express
-app.get("/", function(request, response) {
-  response.render("index");
-});
+app.get("/", function(request, response) { response.render("index"); });
 
-app.get("/home", function(request, response) {
-  response.render("index");
-});
+app.get("/home", function(request, response) { response.render("index"); });
 
-app.get("/about", function(request, response) {
-  response.render("about");
-});
+app.get("/about", function(request, response) { response.render("about"); });
 
-app.get("/team", function(request, response) {
-  response.render("team");
-});
+app.get("/team", function(request, response) { response.render("team"); });
 
-app.get("/team/leo", function(request, response) {
-  response.redirect("https://leodoesthings.tk");
-});
+app.get("/team/leo",
+        function(request,
+                 response) { response.redirect("https://leodoesthings.tk"); });
 
-app.get("/donate", function(request, response) {
-  response.render("donate");
-});
+app.get("/donate", function(request, response) { response.render("donate"); });
 
-app.get("/mcserver", function(request, response) {
-  response.render("mcserver");
-});
+app.get("/mcserver",
+        function(request, response) { response.render("mcserver"); });
 
-app.get("/bots", function(request, response) {
-  response.render("bots");
-});
+app.get("/bots", function(request, response) { response.render("bots"); });
 
-app.get("/thank-you", function(request, response) {
-  response.render("thankyou");
-});
+app.get("/thank-you",
+        function(request, response) { response.render("thankyou"); });
 
-app.get("/support", function(request, response) {
-  response.redirect("https://dankzone.freshdesk.com");
-});
+app.get("/support",
+        function(
+            request,
+            response) { response.redirect("https://dankzone.freshdesk.com"); });
 
 // Load terms of service and privacy policy
 app.get("/terms", function(req, res) {
@@ -77,11 +64,8 @@ app.get("/privacy-2019", function(req, res) {
   res.send(marked(file.toString()));
 });
 
-
 // Redirect unused URLs to the 404 page
-app.get("*", function(request, response) {
-  response.render("404");
-});
+app.get("*", function(request, response) { response.render("404"); });
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {

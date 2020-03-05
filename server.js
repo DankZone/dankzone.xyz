@@ -28,6 +28,10 @@ app.get("/team", function(request, response) {
   response.render("team");
 });
 
+app.get("/team/leo", function(request, response) {
+  response.redirect("https://leodoesthings.tk");
+});
+
 app.get("/donate", function(request, response) {
   response.render("donate");
 });
@@ -44,25 +48,35 @@ app.get("/thank-you", function(request, response) {
   response.render("thankyou");
 });
 
+app.get("/support", function(request, response) {
+  response.redirect("https://dankzone.freshdesk.com");
+});
+
 // Load terms of service and privacy policy
 app.get("/terms", function(req, res) {
+  var path = __dirname + "/public/legal/TERMS-v2.md";
+  var file = fs.readFileSync(path, "utf8");
+  res.send(marked(file.toString()));
+});
+
+app.get("/terms-2019", function(req, res) {
   var path = __dirname + "/public/legal/TERMS.md";
   var file = fs.readFileSync(path, "utf8");
   res.send(marked(file.toString()));
 });
 
 app.get("/privacy", function(req, res) {
+  var path = __dirname + "/public/legal/PRIVACY-v2.md";
+  var file = fs.readFileSync(path, "utf8");
+  res.send(marked(file.toString()));
+});
+
+app.get("/privacy-2019", function(req, res) {
   var path = __dirname + "/public/legal/PRIVACY.md";
   var file = fs.readFileSync(path, "utf8");
   res.send(marked(file.toString()));
 });
 
-// Load the cookie policy
-app.get("/cookie-policy", function(req, res) {
-  var path = __dirname + "/public/legal/COOKIES.md";
-  var file = fs.readFileSync(path, "utf8");
-  res.send(marked(file.toString()));
-});
 
 // Redirect unused URLs to the 404 page
 app.get("*", function(request, response) {

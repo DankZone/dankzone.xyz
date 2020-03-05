@@ -2,11 +2,11 @@
 <title>Terms of Service - DankZone</title>
 <link rel="icon" href="img/core-img/favicon.ico">
 
-# DankZone Terms of Service
+# DankZone Terms of Service (2019)
 
 DankZone Master Terms of Use  
 Last edited on November 11 2019  
-Effective as of December 4 2019
+Effective from __December 4 2019__ to __March 21 2020__
 
 ## General Information Regarding These Terms of Use
 

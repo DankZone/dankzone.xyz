@@ -4,8 +4,8 @@
 
 # DankZone Privacy Policy
 
-DankZone Privacy Policy  
-Last edited on March 1 2020  
+DankZone Privacy Policy
+Last edited on March 1 2020
 Effective as of March 21 2020
 
 **Looking for the old (2019) privacy policy? [Click here](/privacy-2019)**

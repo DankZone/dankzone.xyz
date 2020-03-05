@@ -4,8 +4,8 @@
 
 ## DankZone Terms of Service
 
-DankZone Master Terms of Service  
-Last edited on March 1 2020  
+DankZone Master Terms of Service
+Last edited on March 1 2020
 Effective as of March 21 2020
 
 **Looking for the old (2019) terms? [Click here](/terms-2019)**

@@ -1,11 +1,7 @@
-<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-<title>Terms of Service - DankZone</title>
-<link rel="icon" href="img/core-img/favicon.ico">
-
 ## DankZone Terms of Service
 
 DankZone Master Terms of Service  
-Last edited on March 1 2020  
+Last edited on March 8 2020  
 Effective as of March 21 2020
 
 **Looking for the old (2019) terms? [Click here](/terms-2019)**
@@ -60,7 +56,7 @@ We will approve link requests from these organizations if we determine that: (a)
 
 These organizations may link to our home page, to publications or to other Web site information so long as the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and it products or services; and (c) fits within the context of the linking party's site.
 
-If you are among the organizations listed in paragraph 2 above and are interested in linking to our website, you must notify us by sending an e-mail to [support@dankzone.xyz](mailto:support@dankzone.xyz "send an email to support@dankzone.xyz"). Please include your name, your organization name, contact information (such as a phone number and/or e-mail address) as well as the URL of your site, a list of any URLs from which you intend to link to our Web site, and a list of the URL(s) on our site to which you would like to link. Allow 2-3 weeks for a response.
+If you are among the organizations listed in paragraph 2 above and are interested in linking to our website, you must notify us by sending an e-mail to [support@dankzone.xyz](mailto:support@dankzone.xyz). Please include your name, your organization name, contact information (such as a phone number and/or e-mail address) as well as the URL of your site, a list of any URLs from which you intend to link to our Web site, and a list of the URL(s) on our site to which you would like to link. Allow 2-3 weeks for a response.
 
 Approved organizations may hyperlink to our Web site as follows:
 
@@ -101,6 +97,11 @@ The limitations and exclusions of liability set out in this Section and elsewher
 
 To the extent that the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.
 
+## Communications with DankZone
+
+DankZone offers support via email, in-Service communications (support site), and electronic messages.  
+We do not offer telephone support.
+
 ## Credit & Contact Information
 
-These terms were created at [termsandconditionstemplate.com](https://termsandconditionstemplate.com). If you have any questions about these terms, please contact us via [email](mailto:support@dankzone.xyz) or on our [support site](https://dankzone.xyz/support).
+The basis of these terms were created at [termsandconditionstemplate.com](https://termsandconditionstemplate.com). If you have any questions about these terms, please contact us via [email](mailto:support@dankzone.xyz) or on our [support site](https://dankzone.xyz/support).

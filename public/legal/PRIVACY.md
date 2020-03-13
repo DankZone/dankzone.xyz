@@ -1,7 +1,3 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.8/spectre.min.css">
-<title>Privacy Policy - DankZone</title>
-<link rel="icon" href="img/core-img/favicon.ico">
-
 # DankZone Privacy Policy (2019)
 
 This privacy policy will explain what information we collect online, why we collect it, and the choices we offer to you.  
@@ -9,7 +5,8 @@ This privacy policy (“Policy”) describes the data practices of DankZone, Inc
 
 tl;dr - We collect data to provide you services and to improve our services. We may share some of your information to the third parties listed below, but we will never sell your personal information.
 
-**This Privacy Policy was last updated on November 19 2019.**
+**This Privacy Policy was last updated on November 19 2019.**  
+**_This Privacy Policy will no longer be valid from 21st March 2020._**
 
 ## Information we collect
 

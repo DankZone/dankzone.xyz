@@ -1,13 +1,9 @@
-<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-<title>Privacy Policy - DankZone</title>
-<link rel="icon" href="img/core-img/favicon.ico">
-
 # DankZone Privacy Policy
 
 DankZone Privacy Policy  
-Last edited on March 1 2020  
-Effective as of March 21 2020  
-  
+Last edited on March 8 2020  
+Effective as of March 21 2020
+
 **Looking for the old (2019) privacy policy? [Click here](/privacy-2019)**
 
 ### Your privacy is critically important to us.
@@ -72,4 +68,4 @@ Although most changes are likely to be minor, DankZone may change its Privacy Po
 
 ## Credit & Contact Information
 
-This privacy policy was created at [termsandconditionstemplate.com](https://termsandconditionstemplate.com). If you have any questions about this Privacy Policy, please contact us via [email](mailto:support@dankzone.xyz) or on our [support site](https://dankzone.xyz/support).
+The basis of this privacy policy was created at [termsandconditionstemplate.com](https://termsandconditionstemplate.com). If you have any questions about this Privacy Policy, please contact us via [email](mailto:support@dankzone.xyz) or on our [support site](https://dankzone.xyz/support).

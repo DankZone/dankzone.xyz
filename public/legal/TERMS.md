@@ -1,7 +1,3 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.8/spectre.min.css">
-<title>Terms of Service - DankZone</title>
-<link rel="icon" href="img/core-img/favicon.ico">
-
 # DankZone Terms of Service (2019)
 
 DankZone Master Terms of Use  

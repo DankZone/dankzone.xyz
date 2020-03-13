@@ -1,13 +1,15 @@
 const express = require("express");
 const app = express();
-const fs = require("fs");
-const marked = require("marked");
+const path = require("path");
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));
 
 // Configure view engine to render EJS templates.
-app.set("views", __dirname + "/views");
+app.set("views", [
+  path.join(__dirname, "views"),
+  path.join(__dirname, "views/legal/")
+]);
 app.set("view engine", "ejs");
 
 // http://expressjs.com/en/starter/basic-routing.html
@@ -52,29 +54,32 @@ app.get("/support", function(request, response) {
   response.redirect("https://dankzone.freshdesk.com");
 });
 
+app.get("/blog", function(request, response) {
+  response.redirect("https://medium.com/dankzone");
+});
+
 // Load terms of service and privacy policy
+try {
+	require('./legal.js');
+} catch (err) {
+	console.error('Unable to load legal.js \n', err);
+	process.exit(1);
+}
+
 app.get("/terms", function(req, res) {
-  var path = __dirname + "/public/legal/TERMS-v2.md";
-  var file = fs.readFileSync(path, "utf8");
-  res.send(marked(file.toString()));
+  res.render("terms");
 });
 
 app.get("/terms-2019", function(req, res) {
-  var path = __dirname + "/public/legal/TERMS.md";
-  var file = fs.readFileSync(path, "utf8");
-  res.send(marked(file.toString()));
+  res.render("terms-2019");
 });
 
 app.get("/privacy", function(req, res) {
-  var path = __dirname + "/public/legal/PRIVACY-v2.md";
-  var file = fs.readFileSync(path, "utf8");
-  res.send(marked(file.toString()));
+  res.render("privacy");
 });
 
 app.get("/privacy-2019", function(req, res) {
-  var path = __dirname + "/public/legal/PRIVACY.md";
-  var file = fs.readFileSync(path, "utf8");
-  res.send(marked(file.toString()));
+  res.render("privacy-2019");
 });
 
 

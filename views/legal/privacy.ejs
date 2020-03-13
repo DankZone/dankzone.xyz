@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/head.ejs') %>
+    <!-- Title -->
+    <title>Privacy Policy • DankZone</title>
+  </head>
+
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+      <div class="colorlib-load"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <%- include('partials/header.ejs') %>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home" style="height: 500px;">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 col-md" style="margin-top: 94px;">
+            <div class="wellcome-heading">
+              <h2>Privacy Policy</h2>
+              <h3>Dz</h3>
+              <p>We totally know your dirty secrets.</p>
+            </div>
+            <div class="get-start-area"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Welcome thumb -->
+      <div class="welcome-thumb wow fadeInUp" data-wow-delay="0.5s"></div>
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_100">
+      <div class="container">
+        <%- include('raw/privacy.ejs') %>
+      </div>
+    </section>
+    <!-- ***** Special Area End ***** -->
+
+    <!-- ***** Contact Us Area Start ***** -->
+    <%- include('partials/contact.ejs') %>
+    <!-- ***** Contact Us Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <%- include('partials/footer.ejs') %>
+    <!-- ***** Footer Area End ***** -->
+
+    <%- include('partials/footer-scripts.ejs') %>
+  </body>
+</html>

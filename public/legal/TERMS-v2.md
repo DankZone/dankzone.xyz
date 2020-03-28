@@ -1,7 +1,7 @@
 ## DankZone Terms of Service
 
-DankZone Master Terms of Service  
-Last edited on March 8 2020  
+DankZone Master Terms of Service
+Last edited on March 8 2020
 Effective as of March 21 2020
 
 **Looking for the old (2019) terms? [Click here](/terms-2019)**
@@ -190,7 +190,7 @@ nature.
 ## Communications with DankZone
 
 DankZone offers support via email, in-Service communications (support site), and
-electronic messages.  
+electronic messages.
 We do not offer telephone support.
 
 ## Credit & Contact Information
